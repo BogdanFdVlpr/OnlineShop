@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook Air",
+      "price": 900,
+      "year": "2021",
+      "image": "assets/images/macbook.png",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "8 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro",
+      "price": 1300,
+      "year": "2020",
+      "image": "assets/images/macbook.png",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Samsung",
+      "price": "1000",
+      "year": "2010",
+      "image": "assets/images/macbook.png",
+      "configure": {
+        "chip": "",
+        "ssd": "128",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": 6,
+      "title": "Iphone",
+      "price": "999",
+      "year": "2011",
+      "image": "assets/images/macbook.png",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      }
+    },
+    {
+      "id": 8,
+      "title": "Moto",
+      "price": "499",
+      "year": "2013",
+      "image": "assets/images/macbook.png",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "128",
+        "display": ""
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 2,
+      "title": "MacBook Pro",
+      "price": 1300,
+      "year": "2020",
+      "image": "assets/images/macbook.png",
+      "configure": {
+        "chip": "M1",
+        "SSD": "256 GB",
+        "memory": "16 GB",
+        "display": "Retina"
+      },
+      "quantity": 7
+    }
+  ]
+}
