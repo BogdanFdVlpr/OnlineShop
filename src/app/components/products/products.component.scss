@@ -1,0 +1,48 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+mat-card {
+  background-color: #fff;
+  color: #000;
+  margin: 10px;
+}
+
+.button {
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+}
+
+.image {
+  max-width: 200px;
+  margin: auto;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.extra-toolbar {
+  border: 1px solid grey;
+  background-color: darkorchid;
+  height: 45px;
+
+  .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 45px;
+  }
+
+  &.mat-toolbar-multiple-rows {
+    min-height: 45px;
+  }
+
+  mat-toolbar-row {
+    justify-content: center;
+  }
+}
+
+

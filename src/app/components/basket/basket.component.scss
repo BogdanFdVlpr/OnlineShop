@@ -1,0 +1,26 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+mat-card {
+  background-color: #fff;
+  color: #000;
+&:not(:last-child) {
+   margin-right: 10px;
+ }
+}
+
+.button {
+&:not(:last-child) {
+   margin-right: 5px;
+ }
+}
+
+.image {
+  max-width: 200px;
+  margin: auto;
+}

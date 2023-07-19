@@ -1,0 +1,35 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Title</mat-label>
+    <input matInput formControlName="title" required>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>price</mat-label>
+    <input matInput formControlName="price" required>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>year</mat-label>
+    <input matInput formControlName="year" required>
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Chip</mat-label>
+    <input matInput formControlName="chip">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>SSD</mat-label>
+    <input matInput formControlName="ssd">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Memory</mat-label>
+    <input matInput formControlName="memory">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Display</mat-label>
+    <input matInput formControlName="display">
+  </mat-form-field>
+
+  <button class="button" mat-flat-button color="primary" style="margin: 10px" mat-button type="submit" [disabled]="!myForm.valid" (click)="onSubmit()">
+    {{isNew ? 'Додати Товар' : 'Оновити'}}</button>
+  <button class="button" mat-flat-button color="primary" mat-button (click)="onNoClick()" type="button">Відміна</button>
+
+</form>
